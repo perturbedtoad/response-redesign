@@ -23,6 +23,15 @@ h1 {
   font-size: 2.8em;
 }
 
+a {
+  padding: 1em;
+  background-color: white;
+  color: #486359;
+  text-decoration: none;
+  border-radius: 1em;
+  margin-right: 2em;
+}
+
 #project-title,
 #project-subtitle,
 #project-location {
