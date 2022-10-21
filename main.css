@@ -1,0 +1,127 @@
+h1,
+h2,
+p,
+li,
+h3,
+h4,
+h5 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+}
+
+h2 {
+  padding-top: 0;
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 2.8em;
+}
+
+#project-title,
+#project-subtitle,
+#project-location {
+  margin-left: 10%;
+}
+#project-subtitle {
+  padding-top: 2em;
+  color: #ffffff;
+}
+#project-title {
+  margin-bottom: 0em;
+}
+
+.section-name {
+  color: #ffffff;
+}
+
+.section {
+  margin: 2em 6em 2em 6em;
+  padding: 2em 3em 2em 3em;
+  border-radius: 2em;
+  overflow: auto; /*encompass video and text*/
+  background-color: #6e9586;
+  box-shadow: 0.3em 0.3em 0.5em #486359;
+}
+
+.step-name {
+  color: #ffffff;
+  font-size: 2em;
+  padding-left: 10%;
+}
+
+.step-description {
+  padding-left: 13%;
+  width: 60%;
+}
+
+#intro {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  padding-bottom: 0em;
+  padding-top: 1em;
+}
+.left {
+  float: left;
+  padding-right: 2em;
+  width: 45%;
+}
+.right {
+  float: left;
+  margin-left: 2em;
+  width: 45%;
+  padding-top: 4%;
+}
+#interface-sketch {
+  width: 45%;
+}
+#interface-sketch-img {
+  width: 100%;
+  border-radius: 1.5em;
+  border: 2px solid rgb(239, 230, 206);
+}
+#interface-description {
+  font-size: 1.1em;
+  padding-left: 2em;
+  width: 95%;
+}
+
+#interviews {
+  width: 45%;
+}
+
+.interview-question {
+  font-weight: bold;
+}
+
+.section-mini-wrapper {
+  display: flex;
+  margin: 2em 6em 2em 6em;
+}
+.section-mini {
+  padding: 2em 3em 2em 3em;
+  border-radius: 2em;
+  overflow: auto; /*encompass video and text*/
+  background-color: rgb(255, 252, 243);
+  box-shadow: 0.3em 0.3em 0.5em rgb(245, 228, 186);
+  flex: left;
+  width: 50%;
+}
+
+#persona1 {
+  margin-right: 2em;
+}
+
+.persona {
+  width: 98%;
+}
+
+#storyboard {
+  width: 100%;
+}
