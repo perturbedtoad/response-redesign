@@ -77,8 +77,7 @@ h5 {
   color: #ffffff;
 }
 
-.section,
-.section-prototypes {
+.section {
   margin: 2em 6em 2em 6em;
   padding: 2em 3em 2em 3em;
   border-radius: 2em;
@@ -87,7 +86,8 @@ h5 {
   box-shadow: 0.3em 0.3em 0.5em #486359;
 }
 
-.section-prototypes {
+#hifi,
+#lofi {
   text-align: center;
 }
 
