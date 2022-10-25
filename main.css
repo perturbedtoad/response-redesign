@@ -28,13 +28,22 @@ h1 {
   font-size: 2.8em;
 }
 
-a {
+h5 {
+  font-size: 1em;
+  margin-bottom: 3em;
+}
+
+.button {
   padding: 1em;
   background-color: white;
   color: #486359;
   text-decoration: none;
   border-radius: 1em;
   margin-right: 2em;
+}
+
+.button:hover {
+  box-shadow: 0.3em 0.3em 0.5em #486359;
 }
 
 #project-title,
@@ -50,6 +59,20 @@ a {
   margin-bottom: 0em;
 }
 
+#original-redesign {
+  width: 63%;
+  margin: auto;
+  background-color: transparent;
+  box-shadow: none;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+#redesign-button {
+  background-color: #4a6359;
+  color: white;
+}
+
 .section-name {
   color: #ffffff;
 }
@@ -59,7 +82,7 @@ a {
   padding: 2em 3em 2em 3em;
   border-radius: 2em;
   overflow: auto; /*encompass video and text*/
-  background-color: #6e9586;
+  background-color: #4a6359;
   box-shadow: 0.3em 0.3em 0.5em #486359;
 }
 
@@ -72,6 +95,28 @@ a {
 .step-description {
   padding-left: 13%;
   width: 60%;
+}
+.wrap {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+iframe {
+  /* width: 100%;
+  height: 100%;
+  margin-top: 2em;
+  margin-bottom: 2em; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
 img {
