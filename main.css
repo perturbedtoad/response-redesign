@@ -84,6 +84,7 @@ h5 {
   overflow: auto; /*encompass video and text*/
   background-color: #4a6359;
   box-shadow: 0.3em 0.3em 0.5em #486359;
+  text-align: center;
 }
 
 .step-name {
