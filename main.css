@@ -111,6 +111,12 @@ iframe {
   margin-bottom: 2em;
 }
 
+#original {
+  position: absolute;
+  width: 60%;
+  height: 30%;
+}
+
 .frame-prototype {
   margin-bottom: 2em;
   position: absolute;
