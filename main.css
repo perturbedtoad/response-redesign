@@ -91,6 +91,11 @@ h5 {
   text-align: center;
 }
 
+#redesign {
+  background-color: transparent;
+  box-shadow: none;
+}
+
 .step-name {
   color: #ffffff;
   font-size: 2em;
