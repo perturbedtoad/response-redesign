@@ -77,13 +77,17 @@ h5 {
   color: #ffffff;
 }
 
-.section {
+.section,
+.section-prototypes {
   margin: 2em 6em 2em 6em;
   padding: 2em 3em 2em 3em;
   border-radius: 2em;
   overflow: auto; /*encompass video and text*/
   background-color: #4a6359;
   box-shadow: 0.3em 0.3em 0.5em #486359;
+}
+
+.section-prototypes {
   text-align: center;
 }
 
