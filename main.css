@@ -112,6 +112,7 @@ iframe {
 }
 
 .frame-prototype {
+  margin-bottom: 2em;
   position: absolute;
   top: 0;
   left: 0;
